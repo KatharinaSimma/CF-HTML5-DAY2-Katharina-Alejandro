@@ -1,8 +1,24 @@
-.summary{
-	font-family: sans-serif;
-	font-style: italic;
-}
 
 body{
 	background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.background{
+	border: solid black 3px;
+	border-radius: 12px;
+	padding: 20px;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 5%;
+	background: url("https://i.pinimg.com/originals/7c/cb/01/7ccb010d8fddc4bcd84587ef3c34d100.jpg");
+}
+
+.summary{
+	font-family: sans-serif;
+	font-style: italic;
+	opacity: 1;
+	color: blue;
 }
