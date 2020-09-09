@@ -1,0 +1,16 @@
+body{
+    background-color: #B2ECE8;
+}
+div {
+    border-style: solid;
+    margin: 5px;
+}
+#third>p{
+    visibility: hidden;
+}
+h1 {
+    visibility: hidden;
+}
+#second{
+    visibility: hidden;
+}
