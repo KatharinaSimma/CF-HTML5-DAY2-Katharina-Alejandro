@@ -11,6 +11,10 @@ div {
 h1 {
     visibility: hidden;
 }
-#second{
+#second .right {
     visibility: hidden;
+}
+
+.right img {
+	visibility: visible;
 }
