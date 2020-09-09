@@ -1,0 +1,13 @@
+body{
+    background-color: #B2ECE8;
+}
+div {
+    border-style: solid;
+    margin: 5px;
+}
+img{
+    display: block;
+}
+#third > p{
+    font-size: large;
+}
