@@ -1,0 +1,16 @@
+.sidebar{
+	float: right;
+	width: 10%;
+	position: fixed;
+	left: 90%;
+	text-align: left;
+	z-index: 2;
+	text-align: center;
+	border-radius: 15px;
+	background-color: rgba(255, 172, 172, 0.918)
+}
+.sidebarButton{
+	width: 95%;
+	padding-bottom: 15px;
+	float: left;
+}

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
-	<meta charset='utf-8'>
-	<link rel='stylesheet' type='text/css' href='css/style.css'>
+      <meta charset='utf-8'>
+      <link rel='stylesheet' type='text/css' href='css/style.css'>
+      <link rel='stylesheet' type='text/css' href='css/header.css'>
+      <link rel='stylesheet' type='text/css' href='css/main.css'>
+      <link rel='stylesheet' type='text/css' href='css/footer.css'>
+      <link rel='stylesheet' type='text/css' href='css/sidebar.css'>
 </head>
-	<title>Advanced Exercise 1</title>
+<title>Advanced Exercise 1</title>
 </head>
 
 
@@ -17,22 +22,45 @@ Create an HTML document that is a rough approximation of newspaper-page. Have it
  - Separate CSS declaration in multiple stylesheets, once for every section, and one concerning the HTML file as a whole.-->
 
 <body>
-<header>
-      <h1>CodeFactory News</h1>
-      <h3>You heard it here first</h3>
-       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-</header>
+      <header id="news">
+            <img src="https://codefactory.wien/wp-content/uploads/2020/01/cropped-Logo-2.png">
+            <h1>CodeFactory News</h1>
+            <h3>You heard it here first</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                  et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                  rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </header>
+      <main>
+            <article>
+                  <h2>Article 1</h2>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.</p>
+            </article>
+      </main>
 
-<aside class="sidebar">
-	
-
-
-
-	
-</aside>
-
+      <aside class="sidebar">
+            <a href="#news" class="sidebarButton">Link 1</a>
+            <a href="#" class="sidebarButton">Link 2</a>
+            <a href="#" class="sidebarButton">Link 3</a>
+      </aside>
+      <footer>
+            <img src ="https://codefactory.wien/wp-content/uploads/2020/04/Asset-23-1.png">
+      </footer>
 
 
 
 </body>
+
 </html>

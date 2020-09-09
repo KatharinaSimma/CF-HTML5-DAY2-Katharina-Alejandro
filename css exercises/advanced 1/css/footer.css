@@ -1,0 +1,13 @@
+
+footer{
+	position: relative;
+	width: 100%;
+	float: left;
+	z-index: 3;
+}
+footer img{
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	width: 300px;
+}
